@@ -1,6 +1,8 @@
-function Node(value, next) {
-  this.value = value;
-  this.next = next;
+class Node {
+  constructor(value, next) {
+    this.value = value;
+    this.next = next;
+  }
 }
 
 class LinkedList {
